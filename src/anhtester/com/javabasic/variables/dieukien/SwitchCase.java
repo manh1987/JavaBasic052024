@@ -16,6 +16,19 @@ public class SwitchCase {
             default:
                 System.out.println("Not in 10, 20 or 30");
         }
+
+        String OS = "Windows";
+        switch (OS) {
+            case "Windows" :
+                System.out.println("Run test on platform Windows");
+                break;
+            case "Mac":
+                System.out.println("Run test on platform MacOS");
+                break;
+            default:
+                System.out.println("Run test on other platform");
+                break;
+        }
     }
 }
 
