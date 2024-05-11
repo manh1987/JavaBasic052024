@@ -13,7 +13,7 @@ public class LearnArrayList {
         arrayList.add("Selenium");
         arrayList.add("TestNG Framwork");
         arrayList.add("Selenium");
-        arrayList.add(1,"Extent Reprt"); //Thêm vào vị trí chỉ định
+        arrayList.add(1, "Extent Reprt"); //Thêm vào vị trí chỉ định
 
         arrayList.add("");
         arrayList.add("");
@@ -23,7 +23,7 @@ public class LearnArrayList {
         arrayList.remove("Selenium");
 
         //Duyệt arraylist
-        for(int i = 0;i<arrayList.size();i++){
+        for (int i = 0; i < arrayList.size(); i++) {
             System.out.println(arrayList.get(i));
         }
 
@@ -33,7 +33,7 @@ public class LearnArrayList {
         System.out.println("=================");
         //add all Arraylist2 vào arraylist1
         arrayList.addAll(arrayList2);
-        for(int i = 0;i<arrayList.size();i++){
+        for (int i = 0; i < arrayList.size(); i++) {
             System.out.println(arrayList.get(i));
         }
 
@@ -41,11 +41,10 @@ public class LearnArrayList {
         System.out.println("Tìm kiếm  phàn tử " + arrayList.contains("Selenium"));
 
 
-
         Objects[] mang = arrayList.toArray();
-        for (i = 0; i<mang.length;i++) {
+        for (i = 0; i < mang.length; i++) {
             System.out.println(mang[i]);
         }
-
+       
     }
 }
